@@ -1,0 +1,28 @@
+body{
+    border: 1px solid grey;
+    margin: 0;
+    height: 100vh;
+}
+header{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+}
+nav{
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+}
+figure{
+    margin: 0;
+    background-color: lightskyblue;
+    height: 100px;
+}
+article{
+    background-color: orange;
+    height: 500px;
+}
+footer{
+    background: blue;
+    height: 300px;
+}
