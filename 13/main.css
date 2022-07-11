@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px; /*Asignar el largo de cada columna*/
+    grid-auto-rows: minmax(150px, auto); /*Asignar automaticamente cuanto espacio necesita cada grid*/
+    /* grid-row-gap: 20px; Espacio entre filas. O*/
+    grid-gap: 20px; /*Crea espacio entre rows y columns*/
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+
+.grid-item-1{
+    align-self: start;
+    justify-self: center;
+}
